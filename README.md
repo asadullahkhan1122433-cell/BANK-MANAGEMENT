@@ -1,25 +1,72 @@
-ABC BANK - STREAMLIT LEARNING PROJECT
+# 🏦 ABC Bank Management System
 
-Run on Arch Linux / other systems:
-1. Open a terminal in this folder.
-2. Create and activate a virtual environment:
-   python -m venv .venv
-   source .venv/bin/activate
-3. Install dependencies:
-   pip install -r requirements.txt
-4. Start the app:
-   streamlit run app.py
+A banking management application built using Python, Object-Oriented Programming (OOP), JSON and Streamlit.
 
-The app opens in your browser, usually at http://localhost:8501.
+## 🚀 Features
 
-Files:
-- bank.py: OOP banking logic and JSON storage
-- app.py: Streamlit user interface
-- data.json: local demo data
+- Create a bank account
+- Deposit money
+- Withdraw money
+- View account details
+- Update account information
+- Delete bank accounts
+- View transaction history
+- PIN hashing and input validation
 
-Important:
-This is an educational demo, not production banking software.
-Do not use real customer details, real PINs, or real money.
-For real deployment, use a proper database, authentication, authorization,
-HTTPS, audit logging, backups, and security review.
-# BANK-MANAGEMENT
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- JSON
+- Object-Oriented Programming (OOP)
+
+## 📂 Project Structure
+
+```text
+ABC-Bank/
+├── app.py
+├── bank.py
+├── data.json
+├── requirements.txt
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd ABC-Bank-Management-System
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+## 🔐 Security
+
+- PIN hashing
+- Input validation
+- Unique account numbers
+- Transaction history
+
+## ⚠️ Disclaimer
+
+This is an educational project developed for learning Python and Streamlit. It is not intended for real banking operations.
